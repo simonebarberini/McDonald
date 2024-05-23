@@ -29,7 +29,7 @@ public class Main {
         for(Tavolo tavolo : listaTavoli){
             if(!(tavolo.getOccupato())){
                 tavolo.setOccupato(true);
-                creaOrdine();
+                creaOrdine(utente1,tavolo);
                 verifica = true;
             }
         }
@@ -41,7 +41,7 @@ public class Main {
 
     static void creaOrdine(Utente utente, Tavolo tavolo) {
         Ordine ordine = new Ordine(utente, null,tavolo);
-        
+
         ordine.stampaOrdine();
     }
 }
