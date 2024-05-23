@@ -25,8 +25,8 @@ public class Tavolo {
     public void setOccupato(boolean occupato) {
         this.occupato = occupato;
     }
-    
 
+    
     
 }
 
