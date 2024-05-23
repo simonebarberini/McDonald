@@ -12,15 +12,15 @@ public class Ordine {
 
     public void stampaOrdine() {
 
-        String username = getUsername();
-        int numTav = getNumTav();
-        double budget = getBudget();
-        int numPers = getPersone();
-        System.out.println(
-                "Ordine tavolo " + numTav + " per " + username + ", " + numPers + " persone, budget" + budget + ":");
+        // String username = getUsername();
+        // int numTav = getNumTav();
+        // double budget = getBudget();
+        // int numPers = getPersone();
+        // System.out.println(
+        //         "Ordine tavolo " + numTav + " per " + username + ", " + numPers + " persone, budget" + budget + ":");
         
-        for(String i: prodotti) {
-            System.out.println(i);
-        }
+        // for(String i: prodotti) {
+        //     System.out.println(i);
+        // }
     }
 }   
