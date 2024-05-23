@@ -28,7 +28,7 @@ public ArrayList<String> getProdotti() {
 
 // Setter
 //public void setProdotti(ArrayList<String> prodotti) {
-////        this.prodotti = prodotti;
+//        this.prodotti = prodotti;
 //}
 
 public void addProdotto(String prodotto) {
