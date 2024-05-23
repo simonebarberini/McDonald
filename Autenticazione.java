@@ -4,11 +4,11 @@ public class Autenticazione {
     ArrayList<Utente> listaUtenti;
     
 
-    private boolean login(){
+    // private boolean login(){
 
-    }
+    // }
 
-    private boolean registrazione(){
+    // private boolean registrazione(){
         
-    }
+    // }
 }
